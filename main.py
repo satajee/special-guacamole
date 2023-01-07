@@ -10,7 +10,6 @@ def display_score():
     screen.blit(score_surf, score_rect)
     return current_time
 
-# поплачь блядота
 
 def obstacle_movement(obstacle_list):
     if obstacle_list:
